@@ -1,0 +1,28 @@
+# Local development tools, dependencies, and history backups.
+.venv/
+.cache/
+__pycache__/
+.DS_Store
+/scripts/
+/config/
+/requirements.txt
+
+# Publish TTFs; retain other build outputs locally.
+/dist/*
+!/dist/ttf/
+/dist/ttf/*
+!/dist/ttf/*.ttf
+/sources/ufo/
+/proof/
+/output/
+/tmp/
+
+# The README preview is the only published specimen image.
+/assets/*
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+!/assets/preview.png
