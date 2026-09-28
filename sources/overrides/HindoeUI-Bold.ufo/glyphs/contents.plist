@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ampersand</key>
+    <string>ampersand.glif</string>
+    <key>dvThree</key>
+    <string>dvT_hree.glif</string>
+    <key>dvTwo</key>
+    <string>dvT_wo.glif</string>
+    <key>e</key>
+    <string>e.glif</string>
+    <key>eacute</key>
+    <string>eacute.glif</string>
+    <key>ecaron</key>
+    <string>ecaron.glif</string>
+    <key>ecircumflex</key>
+    <string>ecircumflex.glif</string>
+    <key>edieresis</key>
+    <string>edieresis.glif</string>
+    <key>edotaccent</key>
+    <string>edotaccent.glif</string>
+    <key>egrave</key>
+    <string>egrave.glif</string>
+    <key>emacron</key>
+    <string>emacron.glif</string>
+    <key>eogonek</key>
+    <string>eogonek.glif</string>
+    <key>nacute</key>
+    <string>nacute.glif</string>
+    <key>nine</key>
+    <string>nine.glif</string>
+    <key>s</key>
+    <string>s.glif</string>
+    <key>sacute</key>
+    <string>sacute.glif</string>
+    <key>scaron</key>
+    <string>scaron.glif</string>
+    <key>seven</key>
+    <string>seven.glif</string>
+    <key>three</key>
+    <string>three.glif</string>
+    <key>two</key>
+    <string>two.glif</string>
+  </dict>
+</plist>
