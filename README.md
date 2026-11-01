@@ -5,8 +5,9 @@ with additional characters from [Selawik](https://github.com/microsoft/selawik),
 adjusted to closely match Segoe UI's horizontal proportions, spacing, and
 kerning while retaining Hind's character.
 
-Version **1.019** includes five upright weights, **399 glyphs**, and
-**394 encoded characters**, covering Latin text, symbols, and numerals.
+Version **1.021** includes five upright weights plus Italic and Bold Italic.
+Each font has **399 glyphs** and **394 encoded characters**, covering Latin
+text, symbols, and numerals.
 
 ![Hindoe UI's five weights, compared with Segoe UI, plus Latin text, symbols, and numerals](assets/preview.png)
 
@@ -14,29 +15,33 @@ Version **1.019** includes five upright weights, **399 glyphs**, and
 
 The installable TrueType fonts are in [`dist/ttf/`](dist/ttf/).
 
-| Weight | Weight class | TTF | Editable source |
+| Style | Weight class | TTF | Editable source |
 | --- | ---: | --- | --- |
 | Light | 300 | [Download](dist/ttf/HindoeUI-Light.ttf) | [Glyphs](sources/glyphs/HindoeUI-Light.glyphs) |
 | Semilight | 350 | [Download](dist/ttf/HindoeUI-Semilight.ttf) | [Glyphs](sources/glyphs/HindoeUI-Semilight.glyphs) |
 | Regular | 400 | [Download](dist/ttf/HindoeUI-Regular.ttf) | [Glyphs](sources/glyphs/HindoeUI-Regular.glyphs) |
+| Italic | 400 | [Download](dist/ttf/HindoeUI-Italic.ttf) | [Glyphs](sources/glyphs/HindoeUI-Italic.glyphs) |
 | Semibold | 600 | [Download](dist/ttf/HindoeUI-Semibold.ttf) | [Glyphs](sources/glyphs/HindoeUI-Semibold.glyphs) |
 | Bold | 700 | [Download](dist/ttf/HindoeUI-Bold.ttf) | [Glyphs](sources/glyphs/HindoeUI-Bold.glyphs) |
+| Bold Italic | 700 | [Download](dist/ttf/HindoeUI-BoldItalic.ttf) | [Glyphs](sources/glyphs/HindoeUI-BoldItalic.glyphs) |
 
-Medium is omitted to match the reference's weight set. There are no italic or
-oblique styles. Download the TTF files and open them in your operating system's
-font installer.
+Medium is omitted to match the reference's weight set. Regular, Italic, Bold,
+and Bold Italic are style-linked as one family; Light, Semilight, and Semibold
+have no italics. Download the TTF files and open them in your operating
+system's font installer.
 
 ## Editing in Glyphs
 
 Each file in [`sources/glyphs/`](sources/glyphs/) is a complete document for one
-weight, including cubic outlines, an export instance, editable kerning, and
-shaping features. Use these documents for static exports. The sources passed
-the Glyphs 4 native parser and static export round-trip checks.
+style, including cubic outlines, an export instance, editable kerning, and
+shaping features. Use these documents for static exports. The upright sources
+passed the Glyphs 4 native parser and static export round-trip checks.
 
 [`HindoeUI-OutlineMasters.glyphs`](sources/HindoeUI-OutlineMasters.glyphs) groups
-all five outline masters for comparison and editing. Their separate feature
-texts are retained as round-trip data. Some contour structures differ between
-masters, so this document is **not a variable font source**.
+all five upright outline masters for comparison and editing; the italics are
+not included. Their separate feature texts are retained as round-trip data.
+Some contour structures differ between masters, so this document is **not a
+variable font source**.
 
 ## Design and coverage
 
